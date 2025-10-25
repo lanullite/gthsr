@@ -1,0 +1,124 @@
+# Hero Component Documentation
+
+## Overview
+
+The `Hero` component is a full-screen landing section featuring a video background with overlay text and a call-to-action button. It serves as the primary visual introduction to the Oakworth platform.
+
+## Features
+
+- **Full-screen video background** with auto-play and looping
+- **Responsive typography** that scales across all device sizes
+- **Gradient overlay** for improved text readability
+- **Scroll indicator** for user guidance
+- **Mobile-optimized** viewport handling
+- **Accessible** video fallback content
+
+## Props
+
+This component does not accept any props. All content and behavior are hardcoded.
+
+## Video Specifications
+
+### File Requirements
+- **Primary Format**: MP4 (H.264 codec)
+- **Fallback Format**: WebM (optional)
+- **Location**: `/public/1.mp4`
+- **Dimensions**: 1920x1080 (1080p) or higher
+- **Duration**: 15-30 seconds recommended for smooth looping
+- **File Size**: Optimized for web (2-5MB recommended)
+
+### Video Attributes
+- `autoPlay`: Starts automatically
+- `muted`: Required for autoplay in modern browsers
+- `loop`: Continuous playback
+- `playsInline`: Prevents full-screen on iOS
+- `preload="auto"`: Optimizes loading performance
+
+## Content Structure
+
+### Main Heading
+- **Text**: "OAKWORTH"
+- **Font**: Serif font family
+- **Weight**: Light (300)
+- **Color**: White (#FFFFFF)
+- **Tracking**: Tight letter spacing
+
+### Subheading
+- **Text**: "Definitive LBO intelligence for private equity."
+- **Color**: Light gray (#E5E7EB)
+- **Max Width**: 2xl (42rem)
+
+### Call-to-Action Button
+- **Text**: "Get Started"
+- **Background Color**: #0A1F36 (Oakworth brand blue)
+- **Border**: None (border-0)
+- **Shape**: Square corners (rounded-none)
+- **Hover Effects**: 90% opacity with slight scale reduction
+- **Link Target**: "#contact" section
+
+## Responsive Breakpoints
+
+### Typography Scaling
+| Breakpoint | Heading Size | Subheading Size | Button Size |
+|------------|--------------|-----------------|-------------|
+| xs (<475px) | text-5xl | text-xl | h-11, text-base |
+| sm (640px) | text-6xl | text-2xl | h-12, text-lg |
+| md (768px) | text-7xl | text-2xl | h-14, text-xl |
+| lg (1024px) | text-8xl | text-3xl | h-16, text-xl |
+| xl (1280px) | text-8xl | text-3xl | h-16, text-xl |
+
+### Spacing
+- **Vertical Margins**: Scales from mb-4 (mobile) to lg:mb-6 (desktop)
+- **Button Padding**: Responsive horizontal padding from px-6 to lg:px-12
+
+## Styling Details
+
+### Color Scheme
+- **Primary Brand**: #0A1F36 (Dark blue)
+- **Text Primary**: #FFFFFF (White)
+- **Text Secondary**: #E5E7EB (Light gray)
+- **Overlay**: Black with opacity gradients
+
+### Gradient Overlay
+```css
+background-gradient: 
+  to bottom,
+  rgba(0, 0, 0, 0.2),    /* top - 20% opacity */
+  rgba(0, 0, 0, 0.4),    /* middle - 40% opacity */
+  rgba(0, 0, 0, 0.3)     /* bottom - 30% opacity */
+
+  
+**Alternative Markdown Version (hero-README.md):**
+
+```markdown
+# Hero Component
+
+## Description
+Full-screen video hero section with brand messaging and call-to-action.
+
+## File Location
+`/components/hero.tsx`
+
+## Video Requirements
+- Format: MP4 (H.264)
+- Location: `/public/1.mp4`
+- Resolution: 1080p or higher
+- Duration: 15-30 seconds
+- Size: 2-5MB optimized
+
+## Responsive Behavior
+- Text scales from mobile to desktop
+- Button sizes adjust per breakpoint
+- Mobile viewport optimization
+- Progressive video loading
+
+## Styling
+- Brand colors: #0A1F36, white, gray-200
+- Serif typography throughout
+- Square button design
+- Gradient video overlay
+
+## Browser Compatibility
+- Modern browsers with video support
+- Mobile Safari and Chrome
+- Fallback for unsupported browsers
