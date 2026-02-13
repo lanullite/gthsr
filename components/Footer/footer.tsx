@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import { cn } from '@/lib/utils'
 import { Linkedin, Facebook } from 'lucide-react'
-// Removed unused Rss import
+import Image from 'next/image'
 
 export const Footer = () => {
     const [email, setEmail] = useState('')
@@ -18,13 +18,11 @@ export const Footer = () => {
         setIsSubmitting(true)
         
         try {
-            // Fake subscription - just simulate API call
+            // Simulate API call
             await new Promise(resolve => setTimeout(resolve, 1000))
-            
             setIsSubscribed(true)
             setEmail('')
             console.log('Email subscribed:', email)
-            
         } catch (error) {
             console.error('Subscription failed:', error)
         } finally {
@@ -38,33 +36,56 @@ export const Footer = () => {
             <div className="border-b border-gray-200">
                 <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 md:py-20 lg:py-24">
                     <div className="flex flex-col lg:flex-row justify-between items-start gap-12">
-                        {/* Left Column - Brand and Social */}
+                        
+                        {/* Left Column - Logo, Social, Address */}
                         <div className="flex-1 max-w-md">
-                            <h2 className={cn(
-                                "font-sans text-white leading-tight mb-6",
-                                "text-3xl md:text-4xl lg:text-5xl"
-                            )}>
-                                Oakworth
-                            </h2>
+                            <div className="mb-6">
+                                <Image
+                                    src="/logof.png"
+                                    alt="Oakworth Logo"
+                                    width={90}
+                                    height={30}
+                                    className="object-contain"
+                                />
+                            </div>
                             
                             <p className="text-gray-300 mb-6 text-sm leading-relaxed">
-                                Select topics and stay current with our latest insights
+                                <strong>The Oakworth Group</strong>
+                            </p>
+
+                            {/* Address */}
+                            <p className="text-gray-300 mb-6 text-sm leading-relaxed">
+                                Address:<br></br> 5 Brayford Square,<br></br> London, United Kingdom,<br></br> E1 0SG
                             </p>
                             
                             {/* Social Icons */}
                             <div className="flex gap-3 mb-8">
-                                <a href="#" className="w-9 h-9 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors">
+                                <a 
+                                    href="https://www.linkedin.com/company/the-oakworth-group/" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="w-9 h-9 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
+                                >
                                     <Linkedin className="w-4 h-4 text-[#0A1F36]" />
                                 </a>
-                                <a href="#" className="w-9 h-9 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors">
+                                <a 
+                                    href="https://x.com/theoakworth" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="w-9 h-9 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
+                                >
                                     <svg className="w-4 h-4 text-[#0A1F36]" viewBox="0 0 24 24" fill="currentColor">
                                         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                                     </svg>
                                 </a>
-                                <a href="#" className="w-9 h-9 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors">
+                                <a 
+                                    href="https://web.facebook.com/people/The-Oakworth-Group/61582471520144/" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="w-9 h-9 rounded-full bg-white flex items-center justify-center hover:bg-gray-200 transition-colors"
+                                >
                                     <Facebook className="w-4 h-4 text-[#0A1F36]" />
                                 </a>
-                                
                             </div>
                         </div>
 
@@ -114,13 +135,9 @@ export const Footer = () => {
                         <div className="flex-1">
                             <div className="grid grid-cols-2 gap-x-8 gap-y-4 text-sm leading-relaxed">
                                 <a href="/contact" className="text-white hover:underline whitespace-nowrap">Contact Us</a>
-                               
                                 <a href="/faq" className="text-white hover:underline whitespace-nowrap">FAQ</a>
-                                  <a href="/global" className="text-white hover:underline whitespace-nowrap">Global Disclaimer
-                                  </a>
-                                  <a href="/stand" className="text-white hover:underline whitespace-nowrap">Standards &amp; Regulations
-                                  </a>
-                                
+                                <a href="/global" className="text-white hover:underline whitespace-nowrap">Global Disclaimer</a>
+                                <a href="/stand" className="text-white hover:underline whitespace-nowrap">Standards &amp; Regulations</a>
                             </div>
                         </div>
                     </div>
@@ -133,8 +150,6 @@ export const Footer = () => {
                             <a href="/cookie" className="hover:text-white hover:underline">Cookie Preferences</a>
                             <a href="/Acessibility" className="hover:text-white hover:underline">Accessibility</a>
                             <a href="/scam" className="hover:text-white hover:underline">Scam Warning</a>
-                            
-                        
                         </div>
                     </div>
                 </div>
@@ -146,16 +161,12 @@ export const Footer = () => {
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-300 leading-relaxed">
                         <div className="text-center md:text-left">
                             <p className="mb-2">
-                            The Oakworth Group is a trade name of THEOAKWORTH PRIVATE&#160;LIMITED
-
+                                The Oakworth Group is a trade name of THEOAKWORTH PRIVATE&#160;LIMITED
                             </p>
                             <p>
-                            &#169; 2025 THEOAKWORTH LLC. All rights reserved.
-
+                                &#169; 2026 THEOAKWORTH Incop. All rights reserved.
                             </p>
                         </div>
-                        
-                        
                     </div>
                 </div>
             </div>

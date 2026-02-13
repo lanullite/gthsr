@@ -18,7 +18,7 @@ export default function Contact() {
         },
         {
             title: "Contact Agent",
-            email: "ahmad@theoakworth.com",
+            email: "arman.ahmad@theoakworth.com",
             description: "For general questions and direct communication",
             color: "#0A1F36"
         },

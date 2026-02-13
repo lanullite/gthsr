@@ -18,7 +18,7 @@ export default function CertaintyProtocol() {
                             "sm:text-xl",
                             "lg:text-2xl"
                         )}>
-                            Where strategic finance meets uncompromising precision. We partner with global leaders to transform complex hypotheses into definitive capital decisions.
+                            Independent financial advisory and modeling support for founders and executives preparing for institutional fundraising and capital decisions.
                         </p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default function CertaintyProtocol() {
                         "sm:text-xl",
                         "lg:text-2xl"
                     )}>
-                        In the calculus of high-stakes finance, ambiguity is the only true liability. We eliminate it.
+                        Fundraising decisions require structured analysis, transparent assumptions, and a clear understanding of long term implications.
                     </p>
                 </div>
                 
@@ -48,7 +48,7 @@ export default function CertaintyProtocol() {
                             "sm:text-3xl",
                             "lg:text-4xl"
                         )}>
-                            Clarity, Engineered.
+                            Clarity
                         </div>
                     </div>
                     <p className={cn(
@@ -57,7 +57,7 @@ export default function CertaintyProtocol() {
                         "sm:text-lg",
                         "lg:text-xl"
                     )}>
-                        We architect financial intelligence with transparent, defensible logic. We provide not just data, but a lucid narrative that commands understanding and trust.
+                        We build structured financial models that translate business strategy into measurable outcomes. Clear assumptions and transparent logic allow founders and investors to evaluate opportunities with confidence.
                     </p>
                 </div>
 
@@ -70,7 +70,7 @@ export default function CertaintyProtocol() {
                             "sm:text-3xl",
                             "lg:text-4xl"
                         )}>
-                            Confidence, Delivered.
+                            Reliability
                         </div>
                     </div>
                     <p className={cn(
@@ -79,7 +79,7 @@ export default function CertaintyProtocol() {
                         "sm:text-lg",
                         "lg:text-xl"
                     )}>
-                        Your conviction must be built on a foundation of zero-defect analysis. Our rigorous verification protocols ensure every conclusion is unshakable, turning deliberation into decisive action.
+                        Robust modeling reduces uncertainty around runway, dilution, capital requirements, and operational scalability. This enables informed decision making before engaging with institutional investors.
                     </p>
                 </div>
 
@@ -92,7 +92,7 @@ export default function CertaintyProtocol() {
                             "sm:text-3xl",
                             "lg:text-4xl"
                         )}>
-                            Authority, Earned.
+                            Discipline
                         </div>
                     </div>
                     <p className={cn(
@@ -101,7 +101,7 @@ export default function CertaintyProtocol() {
                         "sm:text-lg",
                         "lg:text-xl"
                     )}>
-                        We engage as an extension of your expertise, providing the analytical authority needed to navigate complexity, secure approvals, and advance strategic imperatives.
+                        Our work emphasizes defensibility, auditability, and alignment with institutional expectations. Models are built to withstand diligence, negotiations, and long term planning requirements.
                     </p>
                 </div>
             </div>
@@ -115,7 +115,7 @@ export default function CertaintyProtocol() {
                         "sm:text-4xl",
                         "lg:text-5xl"
                     )}>
-                        For Leaders Who Define the Market
+                        For Founders and Professional Investors
                     </h2>
                     <div className={cn(
                         "text-black font-sans leading-relaxed max-w-4xl",
@@ -124,10 +124,10 @@ export default function CertaintyProtocol() {
                         "lg:text-2xl"
                     )}>
                         <p className="mb-6">
-                            The Oakworth Group is the designated modeling partner for the world&apos;s most discerning financial institutions. From private equity and venture capital to corporate development, we serve those for whom superior analysis is the non-negotiable baseline of success.
+                            The Oakworth Group provides independent financial modeling support to companies preparing for Series A, Series B, and Series C fundraising, as well as to investors evaluating opportunities.
                         </p>
                         <p>
-                            Our partnership is reserved for entities who recognize that in the architecture of a deal, the quality of the model is the quality of the conviction.
+                            We work with founders, executive teams, venture capital firms, and family offices who require structured analysis to support capital allocation, valuation discussions, and long term strategic planning.
                         </p>
                     </div>
                 </div>

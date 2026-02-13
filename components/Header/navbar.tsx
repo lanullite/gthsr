@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { useScroll } from 'framer-motion'
+import Image from 'next/image'
 
 export const Navbar = () => {
     const [scrolled, setScrolled] = React.useState(false)
@@ -29,20 +30,20 @@ export const Navbar = () => {
                 )}>
                 <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16 lg:h-20">
-                        {/* Logo - scales appropriately */}
+                        {/* Logo - clickable to homepage */}
                         <Link
                             href="/"
                             aria-label="Home"
                             className="flex items-center flex-shrink-0">
-                            <span className={cn(
-                                "font-sans font-semibold tracking-tight leading-tight transition-all duration-300",
-                                "text-lg sm:text-xl lg:text-2xl"
-                            )} style={{ color: '#0A1F36' }}>
-                                Oakworth
-                            </span>
+                            <Image
+                                src="/logoh.png"
+                                alt="Oakworth Logo"
+                                width={80}
+                                height={20}
+                                className="object-contain"
+                                priority
+                            />
                         </Link>
-
-                      
 
                         {/* Buttons - responsive sizing and spacing */}
                         <div className="flex items-center gap-2 sm:gap-3 lg:gap-4">

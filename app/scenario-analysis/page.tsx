@@ -1,7 +1,8 @@
+'use client'
+
 import { Footer } from "@/components/Footer/footer";
 import { Navbar } from "@/components/Header/navbar";
 import Link from 'next/link';
-
 
 export default function Scenario(){
     return(
@@ -12,49 +13,49 @@ export default function Scenario(){
             {/* Header Section */}
             <div className="mb-16">
               <h1 className="text-4xl font-sans font-bold text-black mb-6">Operational Scenario &amp; Sensitivity Analysis</h1>
-              <h2 className="text-2xl text-black mb-8 font-light">Illuminating the Path Through Uncertainty</h2>
+              <h2 className="text-2xl text-black mb-8 font-light">Mapping the Path to Scalable Growth</h2>
               <p className="text-lg text-black max-w-4xl leading-relaxed">
-                An investment thesis is a plan for the future, and the future is inherently uncertain. We move beyond the base case to model the full spectrum of potential outcomes, transforming uncertainty from a threat into a managed variable.
+                Raising Series A–C capital is a journey through uncertainty. We model multiple growth scenarios and stress-test assumptions to provide founders and investors with clarity on potential outcomes and strategic pathways.
               </p>
             </div>
 
             {/* Body Section */}
             <div className="mb-16">
               <p className="text-lg text-black leading-relaxed">
-                Informed strategy requires more than a single forecast&#8212;it requires understanding the landscape of possibilities surrounding it. We architect sophisticated scenario and sensitivity analyses that do not just predict an outcome; they quantify the risks and opportunities, providing the strategic intelligence to navigate volatility with confidence and precision.
+                Growth requires understanding both opportunity and risk. We craft scenario and sensitivity analyses that quantify the effects of operational decisions, market variability, and funding choices, equipping your team to navigate uncertainty with confidence.
               </p>
             </div>
 
             {/* The Oakworth Deliverable Section */}
             <div className="mb-16">
-              <h2 className="text-3xl font-sans font-bold text-black mb-8">The Oakworth Deliverable: Clarity in a Complex World</h2>
+              <h2 className="text-3xl font-sans font-bold text-black mb-8">The Oakworth Deliverable: Insight-Driven Confidence</h2>
               
               <div className="space-y-12">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Tailored Scenario Modeling</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Scenario Planning for Growth</h3>
                   <p className="text-black leading-relaxed">
-                    We build and analyze &#34;Upside,&#34; &#34;Base Case,&#34; and &#34;Downside&#34; scenarios specifically designed around your deal&#39;s most critical and vulnerable assumptions.
+                    We design "Upside," "Base," and "Downside" scenarios tailored to your key operational and financial assumptions, helping investors and leadership see the full spectrum of possibilities.
                   </p>
                 </div>
                 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Precision Sensitivity Analysis</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Sensitivity Analysis of Key Metrics</h3>
                   <p className="text-black leading-relaxed">
-                    We isolate the impact of individual variables&#8212;from growth rates to exit multiples&#8212;identifying the key levers that have the greatest power over your returns.
+                    We isolate how variables—like revenue growth, burn rate, and fundraising milestones—impact valuation, runway, and investor returns.
                   </p>
                 </div>
                 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Break-Even and Stress Analysis</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Thresholds and Stress Testing</h3>
                   <p className="text-black leading-relaxed">
-                    We identify the operational and financial thresholds where deal economics fundamentally change, providing clear markers for risk and opportunity.
+                    We pinpoint operational and financial tipping points, identifying where adjustments are required to protect runway, performance, and investor confidence.
                   </p>
                 </div>
                 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Probabilistic Outcome Analysis</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Probability-Weighted Outcomes</h3>
                   <p className="text-black leading-relaxed">
-                    Where applicable, we employ advanced techniques to assign probabilities to a range of outcomes, giving you a data-driven view of the most likely paths to success.
+                    Using probabilistic modeling where relevant, we provide a data-driven view of the most likely trajectories, enabling informed decision-making and risk management.
                   </p>
                 </div>
               </div>
@@ -62,14 +63,14 @@ export default function Scenario(){
 
             {/* CTA Section */}
             <div>
-            <h2 className="text-3xl font-sans font-bold text-black mb-4">More at</h2>
-            <Link 
-              href="/contact" 
-              className="inline-flex items-center gap-2 bg-[#0A1F36] text-white px-8 py-4 rounded-none font-semibold hover:bg-[#1a365d] transition-colors text-lg"
-            >
-              Schedule a Confidential Review
-            </Link>
-          </div>
+              <h2 className="text-3xl font-sans font-bold text-black mb-4">More at</h2>
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center gap-2 bg-[#0A1F36] text-white px-8 py-4 rounded-none font-semibold hover:bg-[#1a365d] transition-colors text-lg"
+              >
+                Schedule a Confidential Review
+              </Link>
+            </div>
           </div>
         </div>
         <Footer/>

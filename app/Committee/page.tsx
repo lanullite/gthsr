@@ -1,3 +1,5 @@
+'use client'
+
 import { Footer } from "@/components/Footer/footer";
 import { Navbar } from "@/components/Header/navbar";
 import Link from 'next/link';
@@ -10,50 +12,50 @@ export default function Committee(){
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             {/* Header Section */}
             <div className="mb-16">
-              <h1 className="text-4xl font-sans font-bold text-black mb-6">Investment Committee Preparation</h1>
-              <h2 className="text-2xl text-black mb-8 font-light">Your Strategic Narrative, Forged in Analysis</h2>
+              <h1 className="text-4xl font-sans font-bold text-black mb-6">Series C - Investor Committee Preparation</h1>
+              <h2 className="text-2xl text-black mb-8 font-light">Your Growth Story, Backed by Insight</h2>
               <p className="text-lg text-black max-w-4xl leading-relaxed">
-                The final step between analysis and approval is not a number—it is a story. We partner with your team to transform complex models into a compelling, authoritative narrative built to secure a unanimous yes.
+                Securing Series C funding is as much about persuasion as it is about numbers. We partner with your team to translate complex financial and operational analysis into a clear, compelling narrative designed to inspire investor confidence.
               </p>
             </div>
 
             {/* Body Section */}
             <div className="mb-16">
               <p className="text-lg text-black leading-relaxed">
-                A flawless model alone does not secure capital. Conviction does. We specialize in the critical translation of technical analysis into strategic persuasion. Our process ensures your team presents with the clarity and confidence that turns rigorous scrutiny into definitive approval, transforming your investment thesis into an undeniable mandate for action.
+                A robust model alone does not secure capital—it’s the story that convinces investors. Our process transforms technical analysis into strategic insight, ensuring your team presents with clarity, credibility, and the conviction that turns diligence into funding commitment.
               </p>
             </div>
 
             {/* The Oakworth Deliverable Section */}
             <div className="mb-16">
-              <h2 className="text-3xl font-sans font-bold text-black mb-8">The Oakworth Deliverable: From Analysis to Authorization</h2>
+              <h2 className="text-3xl font-sans font-bold text-black mb-8">The Oakworth Deliverable: Insight to Investor Confidence</h2>
               
               <div className="space-y-12">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Distilled Strategic Narrative</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Core Growth Drivers</h3>
                   <p className="text-black leading-relaxed">
-                    We isolate the 3-5 core drivers that truly determine your deal&#39;s success, moving beyond data to craft the central story your committee must remember.
+                    We identify the 3–5 key metrics and strategic levers that define your growth story, ensuring investors focus on what truly matters for your company’s trajectory.
                   </p>
                 </div>
                 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Anticipatory Challenge Preparation</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Anticipatory Investor Q&A</h3>
                   <p className="text-black leading-relaxed">
-                    We develop robust, model-backed answers to the most critical and likely committee questions, ensuring your team navigates challenges with unshakable confidence.
+                    We prepare clear, model-backed responses to likely investor questions, giving your team confidence to handle challenging inquiries with precision and authority.
                   </p>
                 </div>
                 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Executive-Ready Presentation Materials</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Executive-Ready Pitch Materials</h3>
                   <p className="text-black leading-relaxed">
-                    We assist in refining complex analysis into clear, concise, and visually compelling materials that focus committee attention on insight, not just information.
+                    Transforming complex financial data into visually compelling, concise presentations that highlight insight and opportunity, not just raw numbers.
                   </p>
                 </div>
                 
                 <div className="space-y-4">
-                  <h3 className="text-xl font-sans font-bold text-black">Confidence and Delivery Assurance</h3>
+                  <h3 className="text-xl font-sans font-bold text-black">Confidence & Delivery Coaching</h3>
                   <p className="text-black leading-relaxed">
-                    We conduct preparatory sessions to ensure your team presents with the authority that comes from absolute mastery of both the analysis and its strategic implications.
+                    We guide your team through prep sessions to ensure every presenter conveys mastery of both analysis and strategy, leaving investors fully confident in your leadership and growth plan.
                   </p>
                 </div>
               </div>
@@ -61,14 +63,14 @@ export default function Committee(){
 
             {/* CTA Section */}
             <div>
-            <h2 className="text-3xl font-sans font-bold text-black mb-4">More at</h2>
-            <Link 
-              href="/contact" 
-              className="inline-flex items-center gap-2 bg-[#0A1F36] text-white px-8 py-4 rounded-none font-semibold hover:bg-[#1a365d] transition-colors text-lg"
-            >
-              Schedule a Confidential Review
-            </Link>
-          </div>
+              <h2 className="text-3xl font-sans font-bold text-black mb-4">Next Steps</h2>
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center gap-2 bg-[#0A1F36] text-white px-8 py-4 rounded-none font-semibold hover:bg-[#1a365d] transition-colors text-lg"
+              >
+                Schedule a Confidential Review
+              </Link>
+            </div>
           </div>
         </div>
         <Footer/>

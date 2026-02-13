@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-// Removed unused Link import
 import { cn } from '@/lib/utils'
 import { Footer } from "../../components/Footer/footer"
 import { Navbar } from "../../components/Header/navbar"
@@ -12,20 +11,18 @@ export default function Confidential() {
         <>
             <Navbar />
             <section className="relative w-full bg-gray-50">
-                {/* Header Section */}
-                
-
                 {/* Content Section */}
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
                     <div className="flex justify-center">
                         <div className="w-full">
                             <div className="p-8 lg:p-12 border border-gray-200 bg-white">
+                                {/* Header - Founder Info */}
                                 <div className="text-center mb-8">
                                     {/* Professional Headshot */}
                                     <div className="w-32 h-32 lg:w-40 lg:h-40 rounded-full mx-auto mb-6 overflow-hidden">
                                         <Image
                                             src="/CEO.png"
-                                            alt="Muhammad Ahmad - Founder & Managing Principal of The Oakworth Group"
+                                            alt="Arman Ahmad - Founder & Principal of The Oakworth Group"
                                             width={160}
                                             height={160}
                                             className="w-full h-full object-cover"
@@ -38,18 +35,17 @@ export default function Confidential() {
                                         "text-2xl",
                                         "lg:text-3xl"
                                     )}>
-                                        Muhammad Ahmad
+                                        Arman Ahmad
                                     </h2>
                                     <p className={cn(
                                         "text-gray-600 mb-8",
                                         "text-base",
                                         "lg:text-lg"
                                     )}>
-                                        Founder &amp; Managing Principal
+                                        Founder &amp; Principal
                                     </p>
                                 </div>
-                                 
-
+                                
                                 {/* Personal Story Content */}
                                 <div className="prose prose-lg max-w-none text-gray-700 mb-8">
                                     <div className="italic">
@@ -58,11 +54,11 @@ export default function Confidential() {
                                         </p>
                                         
                                         <p className="mb-6 leading-relaxed">
-                                            To me, a model is more than a spreadsheet. It&apos;s a story. It&apos;s the narrative that turns uncertainty into confidence and data into decisive action. This belief is why I founded The Oakworth Group. Our purpose is to provide not just analysis, but a foundation of clarity so solid that you can build your most important decisions upon it.
+                                            To me, a model is more than a spreadsheet. It's a story. It's the narrative that turns uncertainty into confidence and data into decisive action. This belief is why I founded The Oakworth Group. Our purpose is to provide not just analysis, but a foundation of clarity so solid that you can build your most important decisions upon it.
                                         </p>
                                         
                                         <p className="mb-6 leading-relaxed">
-                                            This requires a team that doesn&apos;t just work for a firm, but believes in its mission. That&apos;s why I&apos;ve focused on building a culture of respect and intellectual partnership. I trust my team as the experts they are. They have the freedom to think deeply, to challenge ideas, and to take ownership of their work. When they are treated as partners, they pour that same respect and dedication into every project for our clients. You will feel the difference that this genuine commitment makes.
+                                            This requires a team that doesn't just work for a firm, but believes in its mission. That's why I've focused on building a culture of respect and intellectual partnership. I trust my team as the experts they are. They have the freedom to think deeply, to challenge ideas, and to take ownership of their work. When they are treated as partners, they pour that same respect and dedication into every project for our clients. You will feel the difference that this genuine commitment makes.
                                         </p>
                                         
                                         <p className="mb-6 leading-relaxed">
@@ -75,31 +71,41 @@ export default function Confidential() {
                                     </div>
                                 </div>
 
-                              
-
-                                {/* Contact Section */}
+                                {/* Contact Section with Email & LinkedIn */}
                                 <div className="border-t border-gray-200 pt-8 text-center">
                                     <h3 className={cn(
                                         "font-sans text-gray-900 font-light mb-4",
                                         "text-xl",
                                         "lg:text-2xl"
                                     )}>
-                                         Contact Me
+                                        Contact Me
                                     </h3>
                                     
-                                    <div className="mb-6">
+                                    {/* Email */}
+                                    <div className="mb-4">
                                         <a 
-                                            href="mailto:ahmad@theoakworth.com"
+                                            href="mailto:arman.ahmad@theoakworth.com"
                                             className={cn(
                                                 "text-gray-900 hover:text-[#0A1F36] transition-colors duration-300",
                                                 "text-lg",
                                                 "lg:text-xl"
                                             )}
                                         >
-                                            ahmad@theoakworth.com
+                                            arman.ahmad@theoakworth.com
                                         </a>
                                     </div>
-                                    
+
+                                    {/* LinkedIn Button */}
+                                    <div>
+                                        <a 
+                                            href="https://www.linkedin.com/in/ahmad-oakworth/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center justify-center gap-2 bg-[#0A1F36] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1a365d] transition-colors duration-300 text-lg lg:text-xl"
+                                        >
+                                            LinkedIn
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

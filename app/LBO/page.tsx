@@ -1,31 +1,32 @@
+'use client'
+
 import { Footer } from "@/components/Footer/footer";
 import { Navbar } from "@/components/Header/navbar";
 import Link from "next/link";
 
-
-export default function Lbo(){
-    return(
+export default function Lbo() {
+  return (
     <>
       <Navbar/>
       <div className="min-h-screen bg-white pt-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {/* Header Section */}
           <div className="mb-16">
-            <h1 className="text-4xl font-sans font-bold text-black mb-6">LBO Modeling & Analysis</h1>
-            <h2 className="text-2xl text-black mb-8 font-light">Precision Engineered for Acquisition Conviction</h2>
+            <h1 className="text-4xl font-sans font-bold text-black mb-6">Series A - Advisory & Growth Modeling</h1>
+            <h2 className="text-2xl text-black mb-8 font-light">Precision Engineered for Early-Stage Growth</h2>
             <p className="text-lg text-black max-w-4xl leading-relaxed">
-              In the high-stakes calculus of leveraged acquisitions, the model is not merely a tool—it is the foundational narrative of your investment thesis. We architect this narrative with uncompromising precision, transforming operational hypotheses and complex capital structures into a definitive blueprint for value creation and decisive action.
+              In the critical stages of Series A funding, your financial model is more than numbers—it is the strategic narrative of your growth story. We design models that clearly articulate capital needs, growth trajectories, and investor potential, providing a foundation for confident decision-making.
             </p>
           </div>
 
           {/* The Architecture of Certainty Section */}
           <div className="mb-16">
-            <h2 className="text-3xl font-sans font-bold text-black mb-6">The Architecture of Certainty</h2>
+            <h2 className="text-3xl font-sans font-bold text-black mb-6">The Architecture of Growth</h2>
             <p className="text-lg text-black mb-6 leading-relaxed">
-              An LBO exists at the intersection of operational ambition, financial leverage, and strategic foresight. We engineer models that do not just calculate returns—they build the unshakable confidence required to proceed from evaluation to execution.
+              Series A funding sits at the intersection of operational ambition, market validation, and investor confidence. We engineer models that not only forecast performance but also tell a compelling story that resonates with investors.
             </p>
             <p className="text-lg text-black leading-relaxed">
-              Our approach is built on a fundamental principle: anticipate the scrutiny.We build every model with the Investment Committee&#39;s most probing questions already answered, providing not just data, but defensible, strategic clarity.
+              Every model is built anticipating investor scrutiny. We provide not just data, but defensible, strategic clarity that prepares your company for funding discussions and board-level review.
             </p>
           </div>
 
@@ -33,54 +34,54 @@ export default function Lbo(){
           <div className="mb-16">
             <h2 className="text-3xl font-sans font-bold text-black mb-8">The Oakworth Deliverable: Beyond the Spreadsheet</h2>
             <p className="text-lg text-black mb-8 max-w-3xl">
-              We provide a partnership that translates complexity into command. Your deliverable is more than a model; it is the analytical authority for your deal.
+              Our partnership translates complexity into clarity. Your deliverable is more than a financial model; it is a strategic tool that drives investor confidence and informs growth decisions.
             </p>
             
             <div className="space-y-12">
               <div className="space-y-4">
-                <h3 className="text-xl font-sans font-bold text-black">A Dynamically Integrated Financial Engine</h3>
+                <h3 className="text-xl font-sans font-bold text-black">Integrated Growth Engine</h3>
                 <p className="text-black leading-relaxed">
-                  A seamlessly balanced system where operational assumptions directly drive cash flow, debt capacity, and equity returns, providing a single source of truth for your entire deal team.
+                  A unified model where operational assumptions, revenue projections, and financing plans interact dynamically, providing a single source of truth for your leadership and investors.
                 </p>
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-sans font-bold text-black">Capital Stack Intelligence</h3>
+                <h3 className="text-xl font-sans font-bold text-black">Investor-Ready Financial Structuring</h3>
                 <p className="text-black leading-relaxed">
-                  Sophisticated structuring and scenario analysis of senior, mezzanine, and equity components to optimize returns while ensuring operational resilience and covenant compliance.
+                  Scenario analysis and capital allocation modeling to optimize funding strategy, align growth initiatives, and communicate risk-reward profiles to investors.
                 </p>
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-sans font-bold text-black">Investment Committee Confidence</h3>
+                <h3 className="text-xl font-sans font-bold text-black">Board & Investor Confidence</h3>
                 <p className="text-black leading-relaxed">
-                  Executive-ready outputs and a clear, auditable logic trail designed to withstand rigorous scrutiny and secure swift, unanimous approval.
+                  Clear, auditable, and presentation-ready outputs that withstand scrutiny and provide confidence for both internal and external stakeholders.
                 </p>
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-sans font-bold text-black">Risk-Weighted Return Analysis</h3>
+                <h3 className="text-xl font-sans font-bold text-black">Scenario & Sensitivity Insights</h3>
                 <p className="text-black leading-relaxed">
-                  Advanced scenario and sensitivity modeling that illuminates the full spectrum of potential outcomes, transforming uncertainty from a threat into a managed variable.
+                  Detailed stress testing of assumptions to uncover opportunities, identify risks, and create actionable insights that guide Series A decisions.
                 </p>
               </div>
             </div>
           </div>
 
           {/* Engineered for Leaders Section */}
-          <div className=" rounded-2xl p-8 md:p-12 mb-16">
-            <h2 className="text-3xl font-sans font-bold text-black mb-6">Engineered for Leaders Who Define Markets</h2>
+          <div className="rounded-2xl p-8 md:p-12 mb-16">
+            <h2 className="text-3xl font-sans font-bold text-black mb-6">Engineered for Founders Who Define Markets</h2>
             <p className="text-lg text-black max-w-3xl leading-relaxed">
-              Our LBO modeling is the chosen analytical foundation for financial institutions that recognize a fundamental truth: in the architecture of a deal, the quality of the model determines the quality of the conviction.
+              Our Series A advisory models are the analytical foundation for founders who understand that clarity, precision, and strategic insight are critical to attracting investors and scaling successfully.
             </p>
             <p className="text-lg text-black max-w-3xl mt-4 leading-relaxed">
-              We engage with partners for whom superior analysis is not an advantage, but a prerequisite.
+              We engage with visionary teams who recognize that superior analysis is not an advantage—it is a prerequisite.
             </p>
           </div>
 
           {/* CTA Section */}
           <div>
-            <h2 className="text-3xl font-sans font-bold text-black mb-4">More at</h2>
+            <h2 className="text-3xl font-sans font-bold text-black mb-4">Next Steps</h2>
             <Link 
               href="/contact" 
               className="inline-flex items-center gap-2 bg-[#0A1F36] text-white px-8 py-4 rounded-none font-semibold hover:bg-[#1a365d] transition-colors text-lg"
@@ -91,5 +92,6 @@ export default function Lbo(){
         </div>
       </div>
       <Footer/>
-    </>)
+    </>
+  )
 }

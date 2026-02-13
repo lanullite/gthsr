@@ -20,7 +20,7 @@ export const ConfidentialInquiry = () => {
                             <div className="w-32 h-32 lg:w-40 lg:h-40 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden">
                                 <Image
                                     src="/CEO.png"
-                                    alt="Muhammad Ahmad - Principal of The Oakworth Group"
+                                    alt="Arman Ahmad - Principal of The Oakworth Group"
                                     width={160}
                                     height={160}
                                     className="w-full h-full object-cover"
@@ -33,7 +33,7 @@ export const ConfidentialInquiry = () => {
                                 "text-2xl",
                                 "lg:text-3xl"
                             )}>
-                                Muhammad Ahmad
+                                Arman Ahmad
                             </h2>
                             
                             <p className={cn(
@@ -41,7 +41,7 @@ export const ConfidentialInquiry = () => {
                                 "text-base",
                                 "lg:text-lg"
                             )}>
-                                Principal at The Oakworth Group | Senior Financial Modeler
+                                Principal at The Oakworth Group
 
                             </p>
                             
@@ -57,7 +57,7 @@ export const ConfidentialInquiry = () => {
             "group"
         )}
     >
-        <em>At Oakworth, we architect financial models that regulate complexity and illuminate strategic pathways. We convert intricate variables into a clear narrative for decisive action.…</em>
+        <em>The Oakworth Group provides independent financial modeling and advisory support for founders, executives, and investors navigating Series A–C fundraising, capital strategy, and complex financial decisions.</em>
         <svg 
             className="ml-1 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
             fill="none" 
