@@ -34,7 +34,7 @@ export default function Scenario(){
                 <div className="space-y-4">
                   <h3 className="text-xl font-sans font-bold text-black">Scenario Planning for Growth</h3>
                   <p className="text-black leading-relaxed">
-                    We design "Upside," "Base," and "Downside" scenarios tailored to your key operational and financial assumptions, helping investors and leadership see the full spectrum of possibilities.
+                    We design &quot;Upside,&quot; &quot;Base,&quot; and &quot;Downside&quot; scenarios tailored to your key operational and financial assumptions, helping investors and leadership see the full spectrum of possibilities.
                   </p>
                 </div>
                 

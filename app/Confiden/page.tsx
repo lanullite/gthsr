@@ -54,11 +54,11 @@ export default function Confidential() {
                                         </p>
                                         
                                         <p className="mb-6 leading-relaxed">
-                                            To me, a model is more than a spreadsheet. It's a story. It's the narrative that turns uncertainty into confidence and data into decisive action. This belief is why I founded The Oakworth Group. Our purpose is to provide not just analysis, but a foundation of clarity so solid that you can build your most important decisions upon it.
+                                            To me, a model is more than a spreadsheet. It&apos;s a story. It&apos;s the narrative that turns uncertainty into confidence and data into decisive action. This belief is why I founded The Oakworth Group. Our purpose is to provide not just analysis, but a foundation of clarity so solid that you can build your most important decisions upon it.
                                         </p>
                                         
                                         <p className="mb-6 leading-relaxed">
-                                            This requires a team that doesn't just work for a firm, but believes in its mission. That's why I've focused on building a culture of respect and intellectual partnership. I trust my team as the experts they are. They have the freedom to think deeply, to challenge ideas, and to take ownership of their work. When they are treated as partners, they pour that same respect and dedication into every project for our clients. You will feel the difference that this genuine commitment makes.
+                                            This requires a team that doesn&apos;t just work for a firm, but believes in its mission. That&apos;s why I&apos;ve focused on building a culture of respect and intellectual partnership. I trust my team as the experts they are. They have the freedom to think deeply, to challenge ideas, and to take ownership of their work. When they are treated as partners, they pour that same respect and dedication into every project for our clients. You will feel the difference that this genuine commitment makes.
                                         </p>
                                         
                                         <p className="mb-6 leading-relaxed">
@@ -98,10 +98,10 @@ export default function Confidential() {
                                     {/* LinkedIn Button */}
                                     <div>
                                         <a 
-                                            href="https://www.linkedin.com/in/ahmad-oakworth/"
+                                            href="https://www.linkedin.com/in/arman-oakworth/"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center justify-center gap-2 bg-[#0A1F36] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1a365d] transition-colors duration-300 text-lg lg:text-xl"
+                                            className="inline-flex items-center justify-center gap-2 bg-[#0a66c2] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1a365d] transition-colors duration-300 text-lg lg:text-xl"
                                         >
                                             LinkedIn
                                         </a>

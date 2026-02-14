@@ -14,157 +14,96 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "The Oakworth Group | Architectural Standard in Financial Modeling",
-    template: "%s | The Oakworth Group"
+    default: "The Oakworth Group | Founder-Led Precision in Financial Modeling",
+    template: "%s | The Oakworth Group",
   },
-  description: "The Oakworth Group delivers precision-engineered financial modeling and strategic advisory for the world's leading private equity firms and corporate institutions.",
+  description: "Founder-led financial modeling and advisory, transforming complex data into clarity and actionable insights for confident institutional decisions.",
   keywords: [
-    // Core Service Keywords - Global Elite Focus
-    "financial modeling services", "LBO modeling", "M&A modeling", "debt structuring advisory", 
-    "investment committee preparation", "leveraged buyout analysis", "private equity modeling",
-    "capital stack optimization", "financial due diligence", "acquisition modeling",
-    
-    // Authority & Brand Keywords
-    "premium financial modeling", "institutional-grade analysis", "financial modeling for private equity",
-    "strategic finance advisory", "definitive financial analysis", "precision financial engineering",
-    "global financial advisory", "elite financial modeling", "sophisticated financial analysis",
-    
-    // Technical Excellence Keywords
-    "financial model architecture", "scenario analysis", "sensitivity testing", "IRR optimization",
-    "MOIC calculation", "equity waterfall modeling", "debt capacity analysis", "covenant modeling",
-    "transaction advisory", "merger modeling", "acquisition finance", "leveraged finance",
-    
-    // Client-Focused Outcomes
-    "investment conviction", "capital decision certainty", "board approval ready", 
-    "investment committee confidence", "definitive deal analysis", "strategic capital allocation",
-    
-    // Global Authority Positioning
-    "financial modeling excellence", "quantitative finance authority", "financial engineering mastery",
-    "analytical precision", "zero-defect financial models", "bulletproof financial analysis"
+    "financial modeling services",
+    "LBO modeling",
+    "M&A modeling",
+    "debt structuring advisory",
+    "investment committee preparation",
+    "founder-led advisory",
+    "strategic finance",
+    "clarity-driven analysis",
+    "institutional decision support",
+    "scenario modeling",
+    "sensitivity analysis",
+    "capital stack optimization",
+    "operational insight",
   ].join(", "),
-  
-  authors: [{ name: "The Oakworth Group" }],
-  creator: "The Oakworth Group",
+  authors: [{ name: "Arman Ahmad, The Oakworth Group" }],
+  creator: "Arman Ahmad, The Oakworth Group",
   publisher: "The Oakworth Group",
-  
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  
-  alternates: {
-    canonical: "https://theoakworthgroup.com",
-  },
-  
-  // Global Business Entity Schema - No Local Constraints
+  robots: { index: true, follow: true, nocache: false, googleBot: { index: true, follow: true } },
+  alternates: { canonical: "https://theoakworthgroup.com" },
   openGraph: {
-    title: "The Oakworth Group | Architectural Standard in Financial Modeling",
-    description: "Precision-engineered financial modeling and strategic advisory for the world's leading private equity firms and corporate institutions.",
+    title: "The Oakworth Group | Founder-Led Precision in Financial Modeling",
+    description: "Founder-led advisory transforming complex financial models into clear, actionable insights for confident investment decisions.",
     url: "https://theoakworthgroup.com",
     siteName: "The Oakworth Group",
     images: [
-      {
-        url: "https://theoakworthgroup.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "The Oakworth Group - Architectural Standard in Financial Modeling",
-      },
+      { url: "https://theoakworthgroup.com/og-image.jpg", width: 1200, height: 630, alt: "The Oakworth Group - Founder-Led Financial Modeling" },
     ],
     locale: "en_US",
     type: "website",
   },
-  
   twitter: {
     card: "summary_large_image",
-    title: "The Oakworth Group | Architectural Standard in Financial Modeling",
-    description: "Precision-engineered financial modeling for the world's leading financial institutions.",
+    title: "The Oakworth Group | Founder-Led Precision in Financial Modeling",
+    description: "Founder-led advisory providing clarity, mentorship, and actionable insights in institutional financial decision-making.",
     images: ["https://theoakworthgroup.com/twitter-image.jpg"],
-    creator: "@oakworthgroup",
+    creator: "@theoakworth",
   },
-  
-  // Global Verification - No Local Business Listings
-  verification: {
-    google: "your-google-search-console-verification",
-  },
-  
-  // Additional Global SEO Optimizations
+  verification: { google: "your-google-search-console-verification" },
   category: "financial services",
-  classification: "financial modeling advisory",
+  classification: "founder-led financial advisory",
 };
 
 // Structured Data for Global Financial Service Entity
 const financialServiceSchema = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
-  "name": "The Oakworth Group",
-  "description": "Global financial modeling and strategic advisory firm serving leading private equity firms and corporate institutions worldwide.",
-  "url": "https://theoakworthgroup.com",
-  "telephone": "+1-555-0100", // Global contact number format
-  "areaServed": "Worldwide",
-  "availableLanguage": "English",
-  "serviceType": [
+  name: "The Oakworth Group",
+  description: "Founder-led global financial modeling and advisory serving leading private equity firms and corporate institutions.",
+  url: "https://theoakworthgroup.com",
+  telephone: "+1-555-0100",
+  areaServed: "Worldwide",
+  availableLanguage: "English",
+  serviceType: [
     "Financial Modeling",
-    "LBO Analysis", 
+    "LBO Analysis",
     "M&A Advisory",
     "Debt Structuring",
-    "Investment Committee Preparation"
+    "Investment Committee Preparation",
   ],
-  "provider": {
+  provider: {
     "@type": "Organization",
-    "name": "The Oakworth Group",
-    "description": "Architectural standard in financial modeling for global financial institutions"
-  }
+    name: "The Oakworth Group",
+    description: "Founder-led architectural standard in financial modeling for global financial institutions",
+  },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        {/* Performance & Global Delivery Optimizations */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#0A1F36" />
-        
-        {/* Global CDN Preconnects for Maximum Performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="preconnect" href="https://theoakworthgroup.com" />
-        
-        {/* Favicon & App Icons */}
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        
-        {/* Security Headers would be configured in next.config.js or hosting platform */}
-        
-        {/* Structured Data for Global Entity */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(financialServiceSchema) }}
         />
-        
-        {/* Additional Performance Hints */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//theoakworthgroup.com" />
       </head>
-      <body
-        className={`antialiased`}
-      >
-        {children}
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
